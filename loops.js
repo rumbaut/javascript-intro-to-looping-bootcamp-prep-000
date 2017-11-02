@@ -23,7 +23,8 @@ function maybeTrue(){
   return Math.random > 0.5;
 }
 var array = [];
-forLoop(array);
+/*forLoop(array);
 while(array.length > 0){
   console.log(array.pop());
-}
+}*/
+doWhileLoop(25);
