@@ -7,6 +7,6 @@ function forLoop(array){
 }
 var array = [];
 forLoop(array);
-for(var c in array){
-  console.log(c);
+while(array.length > 0){
+  console.log(array.pop());
 }
