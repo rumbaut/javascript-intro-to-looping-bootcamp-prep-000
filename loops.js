@@ -27,4 +27,4 @@ var array = [];
 while(array.length > 0){
   console.log(array.pop());
 }*/
-doWhileLoop(25);
+//doWhileLoop(25);
