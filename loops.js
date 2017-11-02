@@ -15,9 +15,9 @@ return 'done';
 
 function doWhileLoop(array){
   do{
-    console.log(array);;
+    console.log(array.pop());;
   }
-  while(array-- > 0 && maybeTrue()!= 'false');
+  while(array.length > 0 && maybeTrue()!= 'false');
 }
 function maybeTrue(){
   return Math.random() >= 0.5?`false`:`true`;
