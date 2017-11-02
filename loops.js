@@ -5,7 +5,8 @@ function forLoop(array){
   }
   return array;
 }
-
+var array = [];
+forLoop(array);
 for(var c in array){
   console.log(c);
 }
