@@ -13,15 +13,15 @@ while (n-- > 0) {
 return 'done';
 }
 
-/*function doWhileLoop(array){
+function doWhileLoop(array){
   do{
     console.log(array.pop());
   }
-  while(array.length > 1 /*&& maybeTrue()!= 'false');
+  while(array.length > 1);
 }
 function maybeTrue(){
   return Math.random() >= 0.5?`false`:`true`;
-}*/
+}
 var array = [];
 /*forLoop(array);
 while(array.length > 0){
