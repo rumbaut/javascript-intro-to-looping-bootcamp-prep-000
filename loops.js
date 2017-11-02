@@ -15,7 +15,7 @@ return 'done';
 
 function doWhileLoop(array){
   do{
-    console.log(array.pop());
+    array.pop();
   }
   while(array.length > 1);
 }
