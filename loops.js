@@ -18,6 +18,8 @@ function doWhileLoop(array){
     array.pop();
   }
   while(array.length > 1);
+
+  return array;
 }
 function maybeTrue(){
   return Math.random() >= 0.5?`false`:`true`;
