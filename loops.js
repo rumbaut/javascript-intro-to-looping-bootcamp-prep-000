@@ -5,6 +5,10 @@ function forLoop(array){
   }
   return array;
 }
+
+function whileLoop(n){
+  
+}
 var array = [];
 forLoop(array);
 while(array.length > 0){
