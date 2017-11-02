@@ -12,6 +12,16 @@ while (n-- > 0) {
 }
 return 'done';
 }
+
+function doWhileLoop(array){
+  do{
+    console.log(array);;
+  }
+  while(array-- > 0 && maybeTrue());
+}
+function maybeTrue(){
+  return Math.random > 0.5;
+}
 var array = [];
 forLoop(array);
 while(array.length > 0){
